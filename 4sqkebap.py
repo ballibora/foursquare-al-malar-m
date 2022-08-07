@@ -6,8 +6,8 @@ konu=input("konu girin:")
 sehir=input("şehir girin:")
 
 params = dict(
-   client_id='FDVNH2D1ITQ5VPFHAWMGNRNELZZFV123I5YYGYQW4P1G3GIG', 
-   client_secret='4SGIODLEEEFQXJY4TVSYGIVSH5B4TOC4531A215THD5B4PN3',
+   client_id='', #client id buraya gelecek 
+   client_secret='', #client secret buraya gelecek
    v='20191214',
    near = sehir,
    query = konu,
@@ -41,8 +41,8 @@ id = mekanlar[secim-1]
 
 detail_url = "https://api.foursquare.com/v2/venues/"+id
 params = dict(
-   client_id='FDVNH2D1ITQ5VPFHAWMGNRNELZZFV123I5YYGYQW4P1G3GIG', 
-   client_secret='4SGIODLEEEFQXJY4TVSYGIVSH5B4TOC4531A215THD5B4PN3',
+   client_id='', #client id buraya gelecek 
+   client_secret='', #client secret buraya gelecek
    v='20191214'
 )
 
